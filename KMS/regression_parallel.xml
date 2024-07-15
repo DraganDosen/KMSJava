@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name=" Dragan Suite">
+  <test  thread-count ="5" name="A_Tests One">
+    <classes>
+    <class name="tests.KMSTest"/>
+     </classes>
+    </test>
+    
+ 
+ 
+<test thread-count ="5" name="B_Tests Two">
+    <classes>
+     <class name="tests.KMSTest2"/>
+    </classes>
+ </test> 
+   
+   
+ <test  name="Dragan test">
+    <classes>
+     <class name="tests.RestTest"/>
+    </classes>
+  </test>
+
+    
+  </suite> 
+
